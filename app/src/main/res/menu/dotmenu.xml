@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="Refresh"
+        app:showAsAction="always|withText"></item>
+
+    <item
+        android:id="@+id/alarmOption"
+        android:icon="@drawable/ic_alarm_add_black_24dp"
+        android:title="Refresh"
+        app:showAsAction="always|withText"></item>
+
+    <item
+        android:id="@+id/depthOption"
+        android:title="Tank Depth"></item>
+
+    <!--item android:title="Set Alarm"
+        android:id="@+id/alarmOption"></item-->
+
+    <item
+        android:id="@+id/connectOption"
+        android:title="Connect"></item>
+
+    <item
+        android:id="@+id/disconnectOption"
+        android:title="Disconnect"></item>
+
+    <item
+        android:id="@+id/signOutOption"
+        android:title="SignOut"></item>
+</menu>
